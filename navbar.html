@@ -1,0 +1,22 @@
+<header>
+    <div class="logo">
+      <img src="fruits images/logo1.jpg" alt="Bunga ng Bayan Logo" class="logo-img">
+      <div class="logo-text">
+        <h1>Bunga ng Bayan</h1>
+        <p>A Taste of Philippine Exclusive Fruits</p>
+      </div>
+    </div>
+  
+    <div class="nav-wrapper">
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="fruits.html" onclick="return checkLoginLink(event)">Fruits</a>
+        <a href="contact.html" onclick="return checkLoginLink(event)">Contact</a>
+        <a href="login.html" id="login-btn" class="btn">Login</a>
+        <a href="#" id="logout-btn" class="btn logout" style="display: none;" onclick="logout()">Logout</a>
+      </nav>
+    </div>
+  </header>
+  

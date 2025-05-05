@@ -1,0 +1,79 @@
+/* Contact Page Styles */
+
+.contact-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Section Headings */
+  .contact-container h2,
+  .contact-container h3 {
+    color: #2d4d3a;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Paragraphs */
+  .contact-container p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Contact Info Links */
+  .contact-info a {
+    color: #3c805e;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Styles */
+  form label {
+    font-weight: 600;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  form button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background: #49a078;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #3d8666;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 1rem;
+    }
+  }
+  

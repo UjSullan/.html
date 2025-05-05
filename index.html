@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Bunga ng Bayan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+</head>
+
+<body>
+  <div id="navbar"></div>
+
+  <div class="content-wrapper">
+    <!-- Hero Banner Card -->
+    <div class="card hero-card">
+      <main class="container landing">
+        <video autoplay muted loop class="section-video">
+          <source src="fruits images/Philippines.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="landing-text">
+          <h2>Welcome to Bunga ng Bayan</h2>
+          <p>Step into the colorful world of Philippine fruits — rare, exotic, and deeply rooted in our culture. Each fruit carries the flavor of our heritage.</p>
+          <a href="#" onclick="checkLogin()" class="btn explore-btn">🍃 Explore Now</a>
+        </div>
+      </main>
+    </div>
+
+    <!-- Introduction Card -->
+<div class="card full-width-card">
+  <section class="container intro">
+    <div class="intro-text">
+      <h2>Introduction</h2>
+      <p><strong>Bunga ng Bayan</strong> is a tribute to the Philippines’ rich and vibrant biodiversity. We aim to showcase the diverse, native fruits that grow across the country. Each fruit has its own story, from the lush rainforests of Mindanao to the coastal regions of Luzon. Our mission is to preserve these fruits, share their stories, and promote sustainable agricultural practices that benefit local communities.</p>
+      <p>From the sweet, tropical delights like <strong>Lanzones</strong> to the tangy <strong>Calamansi</strong>, we bring you closer to the natural wonders of the Philippines. Join us in celebrating these incredible fruits that reflect the unique flavors, traditions, and culture of our islands. Together, let’s taste the Philippines, one fruit at a time!</p>
+      <a href="#fruits" class="btn explore-fruits-btn">🍇 Explore the Fruits</a>
+    </div>
+    <div class="intro-image">
+      <img src="fruits images/aratilis.jpg" alt="Philippine Fruits Collage">
+    </div>
+  </section>
+</div>
+
+
+    <!-- Fruit Highlights Card -->
+    <div class="card full-width-card">
+      <section class="container highlights">
+        <h2>Fruit Highlights</h2>
+        <div class="highlight-cards">
+          <div class="card">
+            <img src="fruits images/duhat.jpg" alt="Duhat Fruit">
+            <h3>Duhat</h3>
+            <p>Known as the Philippine Black Plum, rich in antioxidants and a must-try summer fruit.</p>
+          </div>
+          <div class="card">
+            <img src="fruits images/lanzones.jpg" alt="Lanzones Fruit">
+            <h3>Lanzones</h3>
+            <p>Sweet, tangy, and celebrated in festivals. A fruit that unites communities.</p>
+          </div>
+          <div class="card">
+            <img src="fruits images/atis.jpg" alt="Atis Fruit">
+            <h3>Atis</h3>
+            <p>Also called Sugar Apple — sweet, creamy, and packed with vitamin C.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Mission Card -->
+    <div class="card full-width-card">
+      <section class="container mission">
+        <h2>Our Mission</h2>
+        <p>At <strong>Bunga ng Bayan</strong>, our mission is to promote a deeper understanding and appreciation of the diverse, native fruits of the Philippines...</p>
+      </section>
+    </div>
+
+    <!-- Vision Card -->
+    <div class="card full-width-card">
+      <section class="container vision">
+        <h2>Our Vision</h2>
+        <p>We envision a future where the fruits of the Philippines are globally recognized and celebrated...</p>
+      </section>
+    </div>
+
+    <!-- Testimonials Card -->
+    <div class="card full-width-card">
+      <section class="container testimonials">
+        <h2>What People Are Saying</h2>
+        <div class="testimonial-cards">
+          <div class="testimonial">
+            <p>🌟 "A beautiful tribute to our heritage! I discovered so many fruits I didn't even know existed." - <strong>Maria D.</strong></p>
+          </div>
+          <div class="testimonial">
+            <p>🌟 "Visiting this site felt like a colorful, flavorful journey across the islands!" - <strong>James T.</strong></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Social Card -->
+    <div class="card full-width-card">
+      <section class="container social">
+        <h2>Follow Us</h2>
+        <p>Stay connected and spread the love for our local fruits:</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=100064373160065" target="_blank">🌐 Facebook</a>
+          <a href="https://www.instagram.com/" target="_blank">📸 Instagram</a>
+          <a href="https://www.youtube.com/watch?v=VLGDWYiBGgo" target="_blank">🎥 YouTube</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Bunga ng Bayan | All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="js/nav.js"></script>
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav-links");
+      nav.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>

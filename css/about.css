@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background: #f2f7f2;
+    color: #222;
+    padding-top: 80px; /* for fixed navbar space */
+    font-size: 1.2rem; /* Larger base text */
+  }
+  
+  /* About Section Wrapper */
+  .about-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  
+  /* Container for All Cards */
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1100px;
+    width: 100%;
+  }
+  
+  /* Each Card */
+  .card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Headings */
+  .card h2,
+  .card h3 {
+    color: #14532d;
+    margin-bottom: 1rem;
+  }
+  
+  .card h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+  }
+  
+  /* Paragraphs */
+  .card p {
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  
+  /* Lists */
+  .card ul {
+    padding-left: 1.5rem;
+  }
+  
+  .card li {
+    margin-bottom: 0.7rem;
+  }
+  
+  /* Final Centered Message */
+  .card.centered {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  /* Footer */
+  footer {
+    background: #14532d;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    body {
+      font-size: 1rem;
+    }
+  
+    .card h2 {
+      font-size: 1.6rem;
+    }
+  
+    .card h3 {
+      font-size: 1.3rem;
+    }
+  }
+  

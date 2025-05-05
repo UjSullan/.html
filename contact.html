@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Bunga ng Bayan</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main class="contact-container">
+
+    <h2>Contact Us</h2>
+    <p>If you have questions, suggestions, or want to collaborate on highlighting Philippine fruits, we’d love to hear from you!</p>
+
+    <section class="contact-info">
+      <h3>Reach Out</h3>
+      <p>📧 Email: <a href="mailto:bungangbayan@project.ph">bungangbayan@project.ph</a></p>
+      <p>📍 Location: University of the Philippines, Diliman, QC</p>
+      <p>📞 Phone: +63 912 345 6789</p>
+      <p>🕐 Office Hours: Mon - Fri | 9:00 AM - 5:00 PM</p>
+    </section>
+
+    <section class="message-form">
+      <h3>Send Us a Message</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section class="faq">
+      <h3>Frequently Asked Questions (FAQ)</h3>
+      <p><strong>Q:</strong> Are the fruits in this project available for purchase?<br>
+      <strong>A:</strong> Not directly through us, but we can point you to trusted local sellers and markets.</p>
+
+      <p><strong>Q:</strong> Can I contribute my own fruit stories or recipes?<br>
+      <strong>A:</strong> Yes! We welcome community contributions. Use the form above to get started.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bunga ng Bayan | All rights reserved.</p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById("nav-links");
+      nav.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
